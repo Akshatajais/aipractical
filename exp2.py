@@ -32,7 +32,6 @@ def bfs(n):
    return None, nodes
 
 # Depth-First Search
-
 def dfs(n):
 
    nodes = 0
@@ -85,24 +84,17 @@ if n <= 0:
 else:
 
    print("\nBFS Solution:")
-
    b_sol, b_nodes = bfs(n)
-
    display(b_sol, n)
-
    print("Nodes explored:", b_nodes)
+
    print("\nDFS Solution:")
-
    d_sol, d_nodes = dfs(n)
-
    display(d_sol, n)
-
    print("Nodes explored:", d_nodes)
 
    print("\nComparison:")
-
    print("BFS nodes explored:", b_nodes)
-
    print("DFS nodes explored:", d_nodes)
 
 
